@@ -1,6 +1,7 @@
 import ProfileImage from "./ProfileImage";
 import User from "./User";
 import Timestamp from "./Timestamp";
+import Message from "./Message";
 
 function Tweet(props) {
   return (
@@ -12,6 +13,7 @@ function Tweet(props) {
           <User userData={props.tweet.user} />
           <Timestamp time={props.tweet.timestamp} />
         </div>
+        <Message message={props.tweet.message} />
       </div>
     </div>
   );

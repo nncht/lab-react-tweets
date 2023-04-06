@@ -1,3 +1,5 @@
+import ProfileImage from "./ProfileImage";
+
 function Tweet(props) {
   const { user, timestamp, message } = props.tweet;
 
